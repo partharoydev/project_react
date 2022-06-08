@@ -1,0 +1,75 @@
+.weather{
+  text-align: center;
+  background-image: url('wp5530128.jpg');
+  height:100%;
+  width: 100%;
+  position:absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+h1{
+  color: rgb(252, 252, 252);
+  font-size: 300%;
+  font-weight:200;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: unset;
+}
+h2{
+  font-size: 200%;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  margin-right: 80%;
+  margin-bottom: -2.4%;
+  margin-top: 9%;
+}
+h3{
+  font-size: 160%;
+  color: rgb(13, 1, 36);
+  font-weight: 700;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: italic;
+  margin-left: 25%;
+  margin-top: -2.7%;
+}
+h4{
+  font-size: 150%;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style:italic;
+  margin-left: 70%;
+  margin-top: -3.6%;
+}
+label{
+  font-size: 180%;
+  color:rgb(13, 1, 36);
+  font-weight: 800;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: oblique;
+  margin-right: 30%;
+}
+.search{
+  width:15%;
+  max-width: 700px;
+  background: rgba(255, 255, 255, 0.2);
+  display:inline;
+  border-radius: 200px;
+  align-items: center;
+  padding: 10px 20px;
+  backdrop-filter: blur(4px) saturate(150%);
+}
+::placeholder{
+  color: rgb(0, 0, 0);
+  font-size: 120%;
+}
+.button1{
+  width: 40px;
+  border: 0;
+  border-radius: 70%;
+  height: 40px;
+  background:whitesmoke;
+}
+
+
